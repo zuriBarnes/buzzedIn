@@ -1,0 +1,167 @@
+
+
+body {
+    margin:0;
+    padding: 0;
+    background-color: black;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+}
+/* //  Header and Navigation Styles  //    */
+
+nav {
+    width: 100%;
+    background: darkslategray;
+    padding-right: 10rem;
+    padding-left: 4px;
+    padding-bottom: 2rem;;
+    text-align: center;
+}
+
+nav .logo {
+    display:inline-block;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+nav button {
+    width: 10%;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-size: 20px;
+    color: darkslategray;
+    border:none;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+/* Front Page Index Heading // */
+
+.about-info {
+    margin: 0 auto;
+    padding: 3px;
+    width: 66%;
+    
+}
+
+section {
+    margin-top: 4rem;
+    width:100%;
+    background: black;
+    height: 100%;
+    text-align: center;
+}
+
+/* // Form styles  // */
+
+
+form {
+    display: inline-block;
+   
+    text-align: right;
+    padding: 2rem;
+    
+}
+form h1 {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: black;
+
+}
+
+.region {
+    margin-bottom: 1rem;
+    color: black;
+}
+
+
+/* // Form Box //  */
+
+ .app-test {
+    display: inline-block;
+    width: 600px;
+    height: 300px;
+    
+    background: lightgray;
+}
+
+
+
+/* // Footer //  */
+
+footer {
+    text-align: center;
+    padding-top: 2rem;
+    position: relative;
+    bottom:0;
+    width: 100%;
+    height: 200px;
+    color: white;
+    background: black;
+  
+}
+
+
+span {
+    font-size: 1.4rem;
+}
+
+p {
+    font-size: 22px;
+}
+
+ul {
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+li , a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    text-align: center;
+    margin-top:2rem;
+}
+
+.btn input {
+    padding: 5px;
+    width: 80%;
+    color: white;
+    background: darkslategray;
+}
+
+
+/* // Result is the "Console" located within the header / //  */
+
+
+.result {
+    margin-top: 0.7rem;
+    background: black;
+    border-radius: 5px;
+    width:24rem;
+    height:  6.8em;
+    padding:10px;
+    color: tomato !important;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    font-size: 0.88rem;
+    top: 0;
+    left:8px;
+    z-index:999;
+}
+
+#main-container {
+    font-family: monospace;
+    padding-top:12px;
+    width: 56.6%;
+    min-height: 35rem;
+    margin: 5rem auto;
+    background:lightgray;
+    border-radius: 5px;
+    color:black;
+}
