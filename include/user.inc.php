@@ -1,5 +1,3 @@
-
-
 <?php
 
 // Class User Information,arrays,lists,
@@ -33,29 +31,4 @@ $misty = new User("Misty", "mistybarnes79@gmail.com");
  
  $app_users = [$zuri, $misty];
 
- 
-
-
-// Function that echos form input. Form method is POST by default This fucntion is located in the header.php template 
-
- $result = function(){
-     if(isset($_POST['submit'])){
-         echo "new product <strong>ADDED</strong>...<br/>";
-         echo "> Product: {$_POST['product']} <br/>";
-         echo "> Amount: {$_POST['amount']} <br/>";
-         echo "> Type: {$_POST['type']}";
-    
-       }
-     else{
-          echo " User Console <br/>" ;
-          echo "> click +ADD PRODUCT to begin...<br/>";
-          echo "> waiting for input...";
-     }
-   
- }
- 
- 
-
-
-
-?>
+ ?>

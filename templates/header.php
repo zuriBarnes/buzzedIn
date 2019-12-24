@@ -1,8 +1,7 @@
 <?php 
+include('include/result.inc.php');
 
 // Header Teemplate, Zuri Barnes Jan.2019
-    
-
 ?>
 <head>
     <meta charset="UTF-8">
@@ -14,7 +13,6 @@
 <body>
     <div class="result">
         <?php
-          
             $result(); 
         ?> 
      </div>

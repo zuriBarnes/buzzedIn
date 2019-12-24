@@ -2,10 +2,6 @@
  
 include('include/user.inc.php');
     
-
-
-
-
 ?>
 <!DOCTYPE html>
 <html lang="en">

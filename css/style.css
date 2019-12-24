@@ -72,8 +72,9 @@ form h1 {
 }
 
 .region {
+    font-family: monospace;
     margin-bottom: 1rem;
-    color: black;
+    color:black;
 }
 
 

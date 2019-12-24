@@ -2,22 +2,11 @@
 include('include/user.inc.php');
 
 
-
-    
-
-
-
-
-
-
- // $result = function(){
+// $result = function(){
   //  echo "> updates,info and other output shown here <br/>" ;
   //  echo "> click the +ADD PRODUCT button to begin...<br/>";
   //  echo "> waiting for input...";
  // }
-
-
-
 
 ?>
 <!DOCTYPE html>
